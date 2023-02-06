@@ -9,14 +9,14 @@ export function num2Roman(num) {
     //change num to string
     //  let output = "";
     //for loop (in backward) { 
-    //  map the last digit 1,2,3, ...9 ->  II,I, III, ..., IX, else ""
+    //  map the last digit 1,2,3, ...9 ->  I,II, III, ..., IX, else ""
     //  if the second to last digit exists, map 1,2,3, ...9, 0 -> X, XX, XXX, ..., XC, "" else ""
     //  if the third to last digit exists, map 1,2,3, ...9, 0 -> C, CC, CCC, ..., CM, "" else ""
     //  if the fourth to last digit exists, map 1,2,3 -> M, MM, MMM else ""
     //  output = new_mapped + output;
     //}
     //return "";
-    return new_mapped;
+    return output;
 }
 
 export function roman2Num(roman) {
